@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800&family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <!-- Header Mobile -->
+    <header class="w-full bg-[#5EB1BF] fixed top-0">
+        <div class="container">
+            <span class="bg-[#146C94] w-full h-4"></span>
+            <div class="flex justify-between">
+                <!-- Logo -->
+                <img src="../src/img/logo.png" alt="logo" class="scale-75 -translate-x-2 py-1 animate-pulse">
+
+                <!-- Menu -->
+                <div class="nav-btn flex items-center cursor-pointer">
+                    <svg width="22" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 1C0 0.447715 0.447715 0 1 0H24C25.1046 0 26 0.895431 26 2C26 3.10457 25.1046 4 24 4H1C0.447716 4 0 3.55228 0 3V1Z" fill="white"/>
+                        <path d="M0 17C0 16.4477 0.447715 16 1 16H24C25.1046 16 26 16.8954 26 18C26 19.1046 25.1046 20 24 20H1C0.447716 20 0 19.5523 0 19V17Z" fill="white"/>
+                        <path d="M0 9C0 8.44772 0.447715 8 1 8H24C25.1046 8 26 8.89543 26 10C26 11.1046 25.1046 12 24 12H1C0.447716 12 0 11.5523 0 11V9Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+     <!-- Section Welcome -->
+     <section class="pt-16">
+        <img id="gambar-animasi" src="../src/img/imgPT.png" alt="gambar pt" class="w-full opacity-0 transform translate-y-10 transition duration-700 ease-in-out">
+
+        <div id="judul-animasi" class="w-full absolute top-36 opacity-0 animate-pulse">
+            <h1 class="text-center font-poppins text-xl text-white font-bold">Welcome to</h1>
+            <h2 class="text-center font-poppins text-xl text-white font-bold">PT. KARSA DARMA BUANA BHAKTI</h2>
+        </div>
+    </section>
+
+    <!-- Section Home -->
+    <section class="py-2">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <!-- Title -->
+                <div class="w-full">
+                    <h1 class="py-2 text-center text-2xl font-lato font-semibold">Our Business</h1>
+                </div>
+
+                <!-- About -->
+                <div class="shadow-3xl flex w-full py-4 mt-4">
+                    <div class="w-2/5 ">
+                        <h1 class="text-lg text-center text-normal text-[#146C94] font-lato font-semibold">About</h1>
+                        <div class="py-2 flex items-center justify-center">
+                            <img src="../src/img/aboutLogo.png" alt="about">
+                        </div>
+                    </div>
+
+                    <div class="w-3/5 pr-3">
+                        <p class="px-2 py-2 font-poppins text-sm text-justify ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ipsa odit nulla neque, quae reiciendis voluptatem commodi qui! Illum ad cumque error doloribus? Inventore, placeat??</p>
+                    </div>
+                </div>
+
+                <!-- Visi dan Misi -->
+                <div class="w-full pt-10 px-2">
+                    <h1 class="text-right text-lg text-[#146C94] font-lato font-semibold">Vision and Mission</h1>
+                    <!-- Visi dan Icon -->
+                    <div class="flex">
+                        <!-- Visi -->
+                        <div class="w-3/5 font-poppins text-sm">
+                            <h1 class="font-bold text-base">Vision</h1>
+                            <p>1. Lorem ipsum dolor sit amet.</p>
+                            <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>3. Lorem ipsum dolor sit amet consectetur.</p>
+                            <p>4. Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div>
+
+                        <div class="w-2/5">
+                            <img src="../src/img/visiLogo.png" alt="visi logo" class="py-8 mx-auto">
+                        </div>
+                    </div>
+
+                    <div class="py-8 font-poppins text-sm">
+                        <h1 class="font-bold text-base">Mission</h1>
+                        <p>1. Lorem ipsum dolor sit amet.</p>
+                        <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>3. Lorem ipsum dolor sit amet consectetur.</p>
+                        <p>4. Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navbar Menu -->
+    <section>
+        <div class="nav-menu fixed left-0 top-0 w-[60%] h-full bg-[#AFD3E2] hidden">
+                
+            <div class="flex items-center pt-12">
+                <img src="../src/img/logo.png" alt="Logo" class="scale-75">
+                <p class="text-sm font-bold ">PT. KARSA DARMA BUANA BHAKTI</p>
+            </div>
+
+            <div class="close-btn absolute top-2 right-2 cursor-pointer">
+                <svg width="30" height="30" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0H58.1639V58.1639H0V0Z" fill="white" fill-opacity="0.01"/>
+                    <path d="M29 19L49 39" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M29 39L49 19" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            
+            <ul class="p-4">
+                <a href="Home.html">
+                    <li class="p-4 border-b border-gray-600 font-poppins cursor-pointer">Home</li>
+                </a>
+                <a href="WorksPage.html">
+                    <li class="p-4 border-b border-gray-600 font-poppins cursor-pointer">Works</li>
+                </a>
+                <a href="ContactPage.html">
+                    <li class="p-4 border-b border-gray-600 font-poppins">Contact</li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="bg-[#AFD3E2] mt-16">
+        <div class="container py-4">
+            <!-- Identitas -->
+            <div>
+                <h1 class="text-lg font-poppins font-semibold">PT. Karsa Darma Buana Bhakti</h1>
+                <div class="flex gap-2 items-center font-lato">
+                    <svg width="16" height="16" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.00016 0.833252C1.38766 0.833252 0.0834961 2.13742 0.0834961 3.74992C0.0834961 5.93742 3.00016 9.16659 3.00016 9.16659C3.00016 9.16659 5.91683 5.93742 5.91683 3.74992C5.91683 2.13742 4.61266 0.833252 3.00016 0.833252ZM3.00016 4.79159C2.7239 4.79159 2.45894 4.68184 2.26359 4.48649C2.06824 4.29114 1.9585 4.02619 1.9585 3.74992C1.9585 3.47365 2.06824 3.2087 2.26359 3.01335C2.45894 2.818 2.7239 2.70825 3.00016 2.70825C3.27643 2.70825 3.54138 2.818 3.73673 3.01335C3.93208 3.2087 4.04183 3.47365 4.04183 3.74992C4.04183 4.02619 3.93208 4.29114 3.73673 4.48649C3.54138 4.68184 3.27643 4.79159 3.00016 4.79159Z" fill="black"/>
+                    </svg>
+
+                    <p class="text-sm">Jl. Cimande No. 8 Lemah Duhur Caringin Bogor 16730</p>
+                </div>
+
+                <div class="flex gap-2 items-center font-lato">
+                    <svg width="16" height="20" viewBox="0 0 34 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.5 8L17 13.25L24.5 8" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 20V5C2 3.34314 3.34314 2 5 2H29C30.6569 2 32 3.34314 32 5V20C32 21.6569 30.6569 23 29 23H5C3.34314 23 2 21.6569 2 20Z" stroke="black" stroke-width="3" />
+                     </svg>
+                        
+                     <p class="text-sm">karsadbb@gmail.com</p>
+                </div>
+
+                <div class="flex gap-2 items-center font-lato">
+                    <svg width="16" height="16" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M26.1197 21.2415L19.8813 22.4504C15.6674 20.3354 13.0645 17.9059 11.5496 14.1187L12.716 7.86229L10.5112 2H4.82917C3.1211 2 1.77606 3.4115 2.03116 5.1004C2.66801 9.31669 4.54578 16.9613 10.0348 22.4504C15.7991 28.2147 24.1012 30.716 28.6704 31.7102C30.4349 32.0942 32 30.7176 32 28.9119V23.4823L26.1197 21.2415Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                        
+                    <p class="text-sm">0251-8563511</p>
+                </div>
+            </div>
+
+            <!-- Menu -->
+            <div class="pt-5 font-poppins text-center text-sm">
+                <a href="Home.html" class="font-semibold">Home</a>
+                <a href="" class="font-semibold"> | </a>
+                <a href="WorksPage.html" class="font-semibold">Works</a>
+                <a href="" class="font-semibold"> | </a>
+                <a href="" class="font-semibold">Contact</a>
+            </div>
+        </div>
+    </section>
+
+   <script>
+        const nav_btn = document.querySelector(".nav-btn")
+        const nav_menu = document.querySelector(".nav-menu")
+        const close_btn = document.querySelector(".close-btn")
+        const gambarAnimasi = document.querySelector("#gambar-animasi");
+        const judulAnimasi = document.querySelector("#judul-animasi");
+
+        nav_btn.addEventListener("click", () => {
+            nav_menu.classList.remove("hidden")
+            nav_btn.classList.add("hidden")
+        })
+
+        close_btn.addEventListener("click", () => {
+            nav_menu.classList.add("hidden")
+            nav_btn.classList.remove("hidden")
+        })
+
+        window.onload = function () {
+            gambarAnimasi.classList.add("opacity-100", "translate-y-0");
+            gambarAnimasi.classList.remove("opacity-0", "translate-y-10");
+
+            setTimeout(() => {  
+                judulAnimasi.classList.toggle("opacity-100");
+            }, 1000);
+        };
+   </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.garis-merah {
+    @apply border border-red-500
+}
+
+.garis-biru {
+    @apply border border-blue-500
+}
+
+.garis-hijau {
+    @apply border border-green-500
+}
