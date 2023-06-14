@@ -22,8 +22,10 @@ module.exports = {
       },
 
       fontFamily : {
-        "poppins" : ["Poppins"],
-        "lato" : ["Lato"]
+        "mono-bold" : ['Montserrat'],
+        "lato" : ["Lato"], 
+        "jost" : ["Jost"],
+        "poppins" : ["Poppins"]
       },
 
       boxShadow: {
